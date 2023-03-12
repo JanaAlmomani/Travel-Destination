@@ -1,7 +1,18 @@
-#tours{
-    background-color: bisque;
-    
+#tours img {
+    width: 400px;
+    display: flow-root;
+    justify-content: space-between;
 }
-#tours img{
-    width:400px;
+
+#tours {
+    background-color: bisque;
+   
+    font-family: Georgia, serif;
+    margin: 0;
+    display: flow-root;
+    justify-content: space-between;
+}
+
+.text {
+    margin-right: 15px;
 }

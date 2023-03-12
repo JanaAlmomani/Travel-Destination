@@ -1,6 +1,12 @@
-#footer{
+#footer {
     background-color: black;
     color: white;
     text-align: center;
     justify-content: space-between;
+    font-family: Georgia, serif;
+    display: flow-root;
+}
+
+#footer p {
+    text-align: left;
 }
