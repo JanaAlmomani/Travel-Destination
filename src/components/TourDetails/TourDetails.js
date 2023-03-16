@@ -8,7 +8,7 @@ const data = require('../../data/db.json');
 function TourDetails() {
     let { id } = useParams();
     return (<>  <Header />
-        <div id='Tours'>
+        <div id="tourDe">
 
             {data.map((item) => {
                 if (id === item.id) {

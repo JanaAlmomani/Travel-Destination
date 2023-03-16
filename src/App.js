@@ -8,7 +8,7 @@ import { Routes, Route } from 'react-router-dom';
 function App() {
   return (
     <div className="App">
-      {/* <Home /> */}
+     
       <Routes>
         <Route path='/' element={<Home />}></Route>
         <Route path='/city/:id' element={<TourDetails />}></Route>

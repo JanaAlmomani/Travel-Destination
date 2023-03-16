@@ -1,12 +1,12 @@
 
 import Header from '../header/Header';
 import Footer from '../footer/Footer';
-import Tours from '../tours/Tours';
+import TourList from '../tours/Tours';
 function Home() {
     return (
         <div id='home'>
             <Header />
-            <Tours />
+            <TourList />
             <Footer />
 
         </div>
